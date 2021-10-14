@@ -5,6 +5,7 @@ use std::io::{BufRead, BufReader};
 
 use std::path::Path;
 
+#[derive(Debug)]
 pub struct IgnoreFile {
     ruleset: RuleSet
 }
