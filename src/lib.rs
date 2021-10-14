@@ -23,7 +23,7 @@ extern crate failure_derive;
 #[cfg(all(test, feature = "benchmarks"))]
 extern crate test;
 
-mod errors {
+pub mod errors {
   #[derive(Fail, Debug)]
   #[fail(display = "An IO error occured: {}", underlying)]
   struct IoError {
@@ -37,6 +37,6 @@ mod errors {
   }
 }
 
-mod ignore_file;
-mod repo;
-mod ruleset;
+pub mod ignore_file;
+pub mod repo;
+pub mod ruleset;
