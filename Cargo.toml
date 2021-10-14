@@ -8,7 +8,7 @@ authors = ["Nathan Kleyn <nathan@nathankleyn.com>"]
 description = "Implementation of .gitignore file parsing and glob testing in Rust."
 license = "MIT OR Apache-2.0"
 documentation = "https://nathankleyn.com/gitignore.rs/gitignore/"
-repository = "https://github.com/nathankleyn/gitignore.rs"
+repository = "https://github.com/avnerbarr/gitignore.rs"
 
 [dependencies]
 failure = "0.1.2"
