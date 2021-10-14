@@ -3,7 +3,7 @@ cargo-features = ["edition"]
 [package]
 name = "gitignore"
 edition = "2018"
-version = "1.0.8"
+version = "1.0.9"
 authors = ["Nathan Kleyn <nathan@nathankleyn.com>"]
 description = "Implementation of .gitignore file parsing and glob testing in Rust."
 license = "MIT OR Apache-2.0"
